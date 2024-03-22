@@ -1,7 +1,83 @@
-.box {
-  width: 400px;
-  height: 400px;
-  border: 4px solid lawngreen;
-  border-radius: 20px;
+body {
+  background-color: #fff;
 }
 
+.section-images-bottom-div {
+  background-color: rgb(51, 97, 51);
+  width: 1450px;
+  height: 700px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+
+.section-images-bottom-div {
+  display: flex;
+}
+
+.section-polo h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-polo p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  color: saddlebrown;
+}
+
+
+.section-polo button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  width: 140px;
+  height: 30px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 3px;
+  color: black;
+  border: 1px solid lightslategrey;
+  cursor: pointer;
+}
+
+.section-polo button:hover {
+  background-color: seagreen;
+  color: #fff;
+  transition: 0.4s ease-in;
+  border: 1px solid lightslategrey;
+}
+
+.section-polo {
+  position: relative;
+  left: 50px;
+  top: 250px;
+  width: 500px;
+}
+
+.section-polo hr {
+  border: 1px solid lightslategrey;
+  border-radius: 3px;
+}
+
+.imagess img {
+  width: 660px;
+  height: 500px;
+  position: relative;
+  left: 240px;
+  top: 100px;
+  border-radius: 8px;
+}
+
+.imagess img:hover {
+  box-shadow: 0px 0px 15px 9px lightgoldenrodyellow;
+  transition: 0.2s ease-in;
+}
+
+.item {
+  width: 150px;
+  height: 200px;
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+  border: 3px solid red;
+}

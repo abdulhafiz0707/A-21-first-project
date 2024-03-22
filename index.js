@@ -1,3 +1,4 @@
-let box = document.querySelector(".box")
 
-box.innerHTML = "jyldyzbek"
+let item = document.querySelector(".item");
+
+item.innerHTML = "Bishkek";
